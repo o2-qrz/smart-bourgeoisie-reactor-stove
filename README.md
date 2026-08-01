@@ -1,7 +1,7 @@
 markdown
 html
 
-<img src="vvv.png" alt="Resilience-B Layout Diagram" width="500"> 
+<img src="vvv.png" alt="Resilience-B Layout Diagram" width="600"> 
 
 
 html
