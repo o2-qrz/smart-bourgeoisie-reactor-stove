@@ -6,7 +6,7 @@ html
 
 html
 
-<img src="vvv-.png" alt="Resilience-B Layout Diagram" width="500"> 
+<img src="graph.png" alt="Resilience-B Layout Diagram" width="500"> 
 
 
   
