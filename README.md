@@ -1,7 +1,10 @@
 markdown
 html
 
-<img src="vvv.png"alt="smart-bourgeoisie-reactor-stove" width="500"> 
+<img src="vvv.png" alt="Resilience-B Layout Diagram" width="500"> 
+
+
+
 
   
 
