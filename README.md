@@ -4,6 +4,9 @@ html
 <img src="vvv.png" alt="Resilience-B Layout Diagram" width="500"> 
 
 
+html
+
+<img src="vvv-.png" alt="Resilience-B Layout Diagram" width="500"> 
 
 
   
