@@ -8,9 +8,9 @@ html
 
 <img src="graph.png" alt="Resilience-B Layout Diagram" width="500"> 
 
-html
+htmle
 
-<img src="www2.png" alt="Resilience-B Layout Diagram" width="750"> 
+<img src="www2.png" alt="Resilience-B Layout Diagram" width=500"> 
   markdown
 
 # 🏎 Smart-Bourgeoisie (Resilience-Stove) ### *Two-Chamber Automated Off-Grid Reactor with Quantum Air Injection and Cascade Ignition* 
