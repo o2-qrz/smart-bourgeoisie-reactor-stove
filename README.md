@@ -3,7 +3,7 @@ html
 
 <img src="vvv.png" alt="Resilience-B Layout Diagram" width="600"> 
 
-html
+htmli
 
 <img src="graph.png" alt="Resilience-B Layout Diagram" width="500"> 
 
@@ -25,3 +25,7 @@ markdown
 cpp
 
 // --- SMART-BOURGEOISIE: AUTOMATED IGNITION CORE v1.0.0 --- // Optimized for direct 12V/6.5A Nichrome Loop Control #define NICHROME_RELAY_PIN 6 // Pin connected to the gate driver / relay of the coil #define CHAMBER_B_VALVE_PIN 5 // Primary oxygen pulse valve for Chamber B // Safety Constants calibrated via field telemetry (81.2W Load) const unsigned long IGNITION_WINDOW = 25000; // Strict 25-second limit to reach ignition point const unsigned long OXYGEN_DELAY = 5000; // Open air valve 5 seconds after coil heating starts void setup() { pinMode(NICHROME_RELAY_PIN, OUTPUT); pinMode(CHAMBER_B_VALVE_PIN, OUTPUT); digitalWrite(NICHROME_RELAY_PIN, LOW); // Hardware Lock: Force coil off on reboot digitalWrite(CHAMBER_B_VALVE_PIN, LOW); // Keep oxygen closed } void loop() { // This sub-routine executes ONLY when triggered by the primary core matrix } // Executed when Chamber A thermal output drops below target baseline void executeCascadeIgnition() { // Step 1: Initialize High-Current Drawing on the Nichrome Coil digitalWrite(NICHROME_RELAY_PIN, HIGH); // Step 2: Thermal Wait Loop with Anti-Overheating Milisecond Tracking unsigned long startTimestamp = millis(); bool oxygenTriggered = false; while (millis() - startTimestamp < IGNITION_WINDOW) { // Hardware Safety Check: Trigger Oxygen Boost to capture the volatile wood gas if (!oxygenTriggered && (millis() - startTimestamp > OXYGEN_DELAY)) { digitalWrite(CHAMBER_B_VALVE_PIN, HIGH); // Flood dry biomass with fresh O2 oxygenTriggered = true; } // Optional: If optical flame sensor detects active combustion early, break out } // Step 3: Hard Shutdown of the Circuit to Protect the Silicon and Coil digitalWrite(NICHROME_RELAY_PIN, LOW); // Cut the 6.5A line instantly // System enters active combustion phase under primary core control } 
+********
+
+<img src="www2.png" alt="Resilience-B Layout Diagram" width="600"> 
+  markdown
