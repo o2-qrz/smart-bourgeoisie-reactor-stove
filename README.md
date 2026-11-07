@@ -29,5 +29,5 @@ cpp
 
 htmle
 
-<img src="234.jpg" alt="Resilience-B Layout Diagram" width="600"> 
+<img src="5317.jpg" alt="Resilience-B Layout Diagram" width="600"> 
   markdown
