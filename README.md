@@ -35,3 +35,7 @@ htmle
 
 <img src="5315.jpg" alt="Resilience-B Layout Diagram" width="600"> 
   markdown
+htmle
+
+<img src=".jpg" alt="Resilience-B Layout Diagram" width="600"> 
+  markdown
